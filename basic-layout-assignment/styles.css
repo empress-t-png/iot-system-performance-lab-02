@@ -1,0 +1,93 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Header styles */
+header {
+    background-color: plum;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: plum;
+}
+
+nav a:hover {
+    background-color: pink;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    background-color: rebeccapurple;
+    min-height: 400px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar li {
+    border-bottom: 1px solid black;
+}
+
+.sidebar a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:hover {
+    background-color: pink;
+    color: black;
+}
+
+/* Main content */
+.main-content {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    padding: 2rem;
+}
+
+.main-content article {
+    max-width: 800px;
+}
+
+/* Footer */
+footer {
+    background-color: plum;
+    padding: 1rem;
+    text-align: center;
+    clear: both;
+}
